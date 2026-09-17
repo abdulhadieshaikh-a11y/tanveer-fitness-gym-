@@ -1,13 +1,13 @@
 const PLANS = [
-  { name: "Basic", price: "Rs. 3,500", period: "/month" },
-  { name: "Standard", price: "Rs. 5,000", period: "/month", featured: true },
-  { name: "Premium", price: "Rs. 9,000", period: "/month" },
+  { name: "Basic", price: "Rs. 3,500", period: "/month", detail: "For independent training" },
+  { name: "Standard", price: "Rs. 5,000", period: "/month", detail: "Best for steady progress", featured: true },
+  { name: "Premium", price: "Rs. 9,000", period: "/month", detail: "For coached results" },
 ];
 
 const ROWS: { feature: string; values: [boolean | string, boolean | string, boolean | string] }[] = [
-  { feature: "Full gym floor access, 6AM–11PM", values: [true, true, true] },
+  { feature: "Full gym floor access, 6AM - 2AM", values: [true, true, true] },
   { feature: "Locker room & shower access", values: [true, true, true] },
-  { feature: "Women-only hours (2–5PM)", values: [true, true, true] },
+  { feature: "Ladies-only hours (3 - 5PM)", values: [true, true, true] },
   { feature: "Group conditioning classes", values: [false, true, true] },
   { feature: "Monthly progress assessment", values: [false, true, true] },
   { feature: "Personal trainer sessions", values: [false, "1 / month", "2 / week"] },
@@ -33,7 +33,8 @@ export default function Membership() {
             Membership
           </h2>
           <p className="mt-3 max-w-md text-[16px] text-steel-500">
-            No joining fee this month, and no lock-in contract — cancel any
+            No joining fee this month and no lock-in contract. Choose the level
+            that fits your routine, train during our daily hours, and cancel any
             time with seven days&rsquo; notice at the front desk.
           </p>
         </div>
@@ -62,6 +63,7 @@ export default function Membership() {
                         {plan.period}
                       </span>
                     </p>
+                    <p className="mt-2 text-[13px] font-normal text-steel-500">{plan.detail}</p>
                   </th>
                 ))}
               </tr>

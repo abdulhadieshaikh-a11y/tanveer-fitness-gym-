@@ -27,6 +27,21 @@ export default function Hero() {
             floor built for people who show up and do the work.
           </p>
 
+          <div className="mt-7 grid max-w-lg grid-cols-2 gap-x-6 gap-y-3 border-y border-bone-100/20 py-4 text-sm text-bone-200 sm:grid-cols-3">
+            <div>
+              <p className="font-semibold text-brass-400">7 days</p>
+              <p className="mt-1 text-steel-300">Open every week</p>
+            </div>
+            <div>
+              <p className="font-semibold text-brass-400">3 - 5 PM</p>
+              <p className="mt-1 text-steel-300">Ladies-only hours</p>
+            </div>
+            <div>
+              <p className="font-semibold text-brass-400">Free trial</p>
+              <p className="mt-1 text-steel-300">Visit the floor</p>
+            </div>
+          </div>
+
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href="tel:+923144274441"
@@ -45,8 +60,8 @@ export default function Hero() {
 
         <div className="hidden items-end justify-center md:col-span-5 md:flex">
           <div className="border-l border-brass-400/70 pl-6 text-sm text-bone-200">
-            <p className="font-display text-3xl font-bold text-brass-400">Open 7 days</p>
-            <p className="mt-2 max-w-[180px] leading-relaxed">A serious training floor for every kind of athlete.</p>
+            <p className="font-display text-3xl font-bold text-brass-400">Train your way</p>
+            <p className="mt-2 max-w-[180px] leading-relaxed">Strength equipment, practical coaching, and dedicated ladies-only hours.</p>
           </div>
         </div>
       </div>

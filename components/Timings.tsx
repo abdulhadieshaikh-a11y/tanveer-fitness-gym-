@@ -1,7 +1,11 @@
 const HOURS = [
-  { day: "Monday - Friday", hours: "6:00 AM - 11:00 PM", note: "Women-only 2:00 - 5:00 PM" },
-  { day: "Saturday", hours: "7:00 AM - 10:00 PM", note: "Open gym floor" },
-  { day: "Sunday", hours: "8:00 AM - 8:00 PM", note: "Recovery-friendly pace" },
+  { day: "Monday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
+  { day: "Tuesday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
+  { day: "Wednesday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
+  { day: "Thursday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
+  { day: "Friday", hours: "11:00 PM - 2:00 AM", note: "Late-night training" },
+  { day: "Saturday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
+  { day: "Sunday", hours: "6:00 AM - 2:00 AM", note: "Boys / general access" },
 ];
 
 export default function Timings() {
@@ -11,7 +15,12 @@ export default function Timings() {
         <div className="md:col-span-4">
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-[#d95b3e]">Plan your session</p>
           <h2 className="font-display text-4xl font-bold leading-[0.95] text-iron-950 sm:text-5xl">Good hours make good habits.</h2>
-          <p className="mt-6 max-w-sm text-[16px] leading-relaxed text-steel-700">Come early for a quiet floor, or train after work with the full crew. Your membership gives you room to build a routine that lasts.</p>
+          <p className="mt-6 max-w-sm text-[16px] leading-relaxed text-steel-700">Train on your schedule with clear daily hours, a dedicated ladies-only slot, and a floor that stays ready for serious work.</p>
+          <div className="mt-8 border-l-2 border-[#d95b3e] pl-4">
+            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-iron-950">Ladies-only hours</p>
+            <p className="mt-1 font-display text-2xl font-bold text-[#d95b3e]">Every day, 3:00 - 5:00 PM</p>
+            <p className="mt-1 text-sm text-steel-500">A focused, comfortable training window for women.</p>
+          </div>
         </div>
         <div className="md:col-span-7 md:col-start-6">
           <div className="border-t border-iron-950/15">
@@ -19,7 +28,7 @@ export default function Timings() {
               <div key={item.day} className="grid gap-2 border-b border-iron-950/15 py-6 sm:grid-cols-[1fr_auto] sm:items-center sm:gap-8">
                 <div>
                   <p className="font-display text-2xl font-bold text-iron-950">{item.day}</p>
-                  <p className="mt-1 text-sm text-steel-500">{item.note}</p>
+                  <p className="mt-1 text-sm text-steel-500">{item.note} · Ladies-only 3:00 - 5:00 PM</p>
                 </div>
                 <p className={`font-display text-2xl font-bold ${index === 0 ? "text-[#d95b3e]" : "text-iron-900"}`}>{item.hours}</p>
               </div>
