@@ -11,7 +11,7 @@ const PROGRAMS = [
     name: "Strength & Powerlifting",
     detail: "Squat, bench, and deadlift technique built up from an empty bar, with progressive programming for competition or personal goals.",
     tag: "Free weights floor",
-    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=85",
+    image: "https://cdn.muscleandstrength.com/sites/default/files/styles/800x500/public/strong_man_doing_heavy_deadlifts.jpg?itok=KSD91Wjs",
   },
   {
     icon: IconFunctional,
@@ -25,7 +25,7 @@ const PROGRAMS = [
     name: "Fat Loss & Conditioning",
     detail: "Circuit-based sessions pairing resistance work with conditioning, plus a simple food plan you can actually follow in Multan.",
     tag: "Turf + cardio deck",
-    image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1000&q=85",
+    image: "https://cdn.muscleandstrength.com/sites/default/files/field/image/workout/density-450.jpg",
   },
   {
     icon: IconRecovery,

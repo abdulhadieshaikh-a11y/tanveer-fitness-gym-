@@ -13,6 +13,7 @@ export default function Hero() {
       </div>
       <div className="container-x relative grid gap-12 pb-20 pt-16 md:grid-cols-12 md:gap-8 md:pb-28 md:pt-24">
         <div className="reveal-up md:col-span-7">
+          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-brass-400">Multan&apos;s strength training floor</p>
           <h1 className="font-display text-[15vw] font-extrabold leading-[0.86] tracking-tightest text-bone-100 sm:text-[9vw] md:text-[5.4vw]">
             Strength,
             <br />
@@ -50,10 +51,10 @@ export default function Hero() {
               Call for a free trial
             </a>
             <a
-              href="#membership"
+              href="#programs"
               className="link-grow border-b border-transparent py-3.5 text-[15px] font-medium text-bone-100"
             >
-              See membership plans
+              Explore training programs
             </a>
           </div>
         </div>

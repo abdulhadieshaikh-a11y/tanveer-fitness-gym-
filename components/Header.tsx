@@ -4,7 +4,6 @@ const NAV_LINKS = [
   { href: "#programs", label: "Programs" },
   { href: "#timings", label: "Timings" },
   { href: "#facility", label: "Facility" },
-  { href: "#membership", label: "Membership" },
   { href: "#location", label: "Location" },
 ];
 
@@ -51,10 +50,10 @@ export default function Header() {
           </nav>
 
           <a
-            href="#membership"
+            href="#programs"
             className="hidden shrink-0 border border-iron-950 bg-iron-950 px-5 py-2.5 text-[14px] font-semibold text-bone-100 transition-colors hover:bg-brass-500 hover:border-brass-500 sm:inline-block"
           >
-            Join Now
+            Start Training
           </a>
         </div>
       </div>

@@ -4,7 +4,6 @@ import Philosophy from "@/components/Philosophy";
 import Programs from "@/components/Programs";
 import Timings from "@/components/Timings";
 import Facilities from "@/components/Facilities";
-import Membership from "@/components/Membership";
 import Testimonials from "@/components/Testimonials";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
@@ -19,7 +18,6 @@ export default function Home() {
         <Programs />
         <Timings />
         <Facilities />
-        <Membership />
         <Testimonials />
         <Location />
       </main>
