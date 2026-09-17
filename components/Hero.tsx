@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section id="top" className="texture-iron relative overflow-hidden text-bone-100">
       <div className="absolute inset-0 image-wash">
-        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2000&q=85" alt="Athlete training with weights in a modern gym" className="h-full w-full object-cover opacity-45" />
+        <img src="https://images.unsplash.com/photo-1689877020200-403d8542d95d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltc3xlbnwwfHwwfHx8MA%3D%3D" alt="Athlete training in the Tanveer Fitness gym" className="h-full w-full object-cover opacity-45" />
       </div>
       <div className="container-x relative grid gap-12 pb-20 pt-16 md:grid-cols-12 md:gap-8 md:pb-28 md:pt-24">
         <div className="reveal-up md:col-span-7">
